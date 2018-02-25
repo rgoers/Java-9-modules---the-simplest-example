@@ -7,6 +7,8 @@ and contains two modules `pl.tfij.java9modules.app` and `pl.tfij.java9modules.gr
 The first one has a dependency to the second one.
 Each module contains only one class with a one single-line method.
 
+This project has been modified from the original to demonstrate Log4j working as modules in Java 9.
+
 Included scripts allow to easily run the code.
 To compile the code just start a `compile.sh` script.
 Then execute the `package.sh` to build jar files.

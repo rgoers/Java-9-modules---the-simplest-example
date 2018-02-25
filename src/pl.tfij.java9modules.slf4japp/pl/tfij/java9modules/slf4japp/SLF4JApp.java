@@ -1,15 +1,15 @@
-package pl.tfij.java9modules.app;
+package pl.tfij.java9modules.slf4japp;
 
 import pl.tfij.java9modules.greetings.Greeting;
 
-import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.LogManager;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 
-public class ModuleApp {
+public class SLF4JApp {
 
-    private static Logger logger = LogManager.getLogger(ModuleApp.class)
-;
+    private static Logger logger = LoggerFactory.getLogger(SLF4JApp.class);
+
     public static void main(String[] args) {
         System.out.println("Class path: " + System.getProperty("java.class.path"));
         System.out.println("Module path:" + System.getProperty("jdk.module.path"));
